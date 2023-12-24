@@ -1,10 +1,14 @@
 const height = document.getElementById("height");
+
 const weight = document.getElementById("weight");
+
 const results = document.getElementById("results");
+
 const button = document.querySelector("button");
 
 function findResult(event) {
 	event.preventDefault();
+
 	if (
 		height.value === "" ||
 		isNaN(height.value) ||
