@@ -1,7 +1,12 @@
+body {
+    background-color: #797978;
+
+}
+
 .container {
     width: 575px;
     height: 825px;
-
+    margin-left: 35%;
     background-color: #797978;
     padding-left: 30px;
 }
