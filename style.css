@@ -19,6 +19,11 @@ body {
 
 }
 
+select {
+    display: inline-block;
+    margin-left: 10px;
+}
+
 #weight-guide {
     margin-left: 75px;
     margin-top: 25px;

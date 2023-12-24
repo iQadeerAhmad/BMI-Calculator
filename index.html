@@ -14,8 +14,20 @@
     <div class="container">
         <h1>BMI Calculator</h1>
         <form>
-            <p><label>Height in CM: </label><input type="text" id="height" /></p>
-            <p><label>Weight in KG: </label><input type="text" id="weight" /></p>
+            <p>
+                <label>Height: </label><input type="text" id="height" />
+
+                <select id="heightUnit">
+                    <option value="cm">Centimeters</option>
+                    <option value="ft">Feet</option>
+                </select>
+            </p>
+            <p><label>Weight: </label><input type="text" id="weight" />
+                <select id="weightUnit">
+                    <option value="kg">Kilograms</option>
+                    <option value="lb">Pounds</option>
+                </select>
+            </p>
             <button>Calculate</button>
             <div id="results"></div>
             <div id="weight-guide">
